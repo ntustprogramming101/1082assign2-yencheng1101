@@ -55,6 +55,8 @@ void draw() {
   background(title);
   imageMode(CORNER);
   image(startNormal,248,360);
+  groundhogIdleX=-80;
+  groundhogIdleY=-80;
   if(mouseX>Button_Left && mouseX< Button_Right && mouseY>Button_Top && mouseY<Button_Bottom){
   image(startHovered,248,360);
     if(mousePressed){
@@ -159,6 +161,8 @@ void draw() {
   
   background(gameover);
   image(restartNormal,248,360);
+  groundhogIdleX=-80;
+  groundhogIdleY=-80;
   if(mouseX>Button_Left && mouseX< Button_Right && mouseY>Button_Top && mouseY<Button_Bottom){
     image(restartHovered,248,360);
     lifeCount=2;
