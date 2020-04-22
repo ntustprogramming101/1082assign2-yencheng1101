@@ -198,10 +198,6 @@ void keyPressed(){
       
       break;
       
-      case UP:
-      groundhogIdleY-=speed;
-      
-      break;
       
     } 
   } 
